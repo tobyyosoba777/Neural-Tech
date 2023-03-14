@@ -1,11 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
-/*
-Author: webthemez.com
-Author URL: http://webthemez.com
-*/
-/*************************
-*******Typography******
-**************************/
 
 html {
   scroll-behavior: smooth;
@@ -30,6 +23,7 @@ h6 {
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
 }
+
 a {
   color: #45aed6;
   -webkit-transition: color 400ms, background-color 400ms;
@@ -990,3 +984,32 @@ margin: 9px auto;
 padding: 7px 0 0;
 }
 }
+
+.social-icons {
+  display: flex;
+  padding: 20px;
+}
+
+.social-icons i {
+  font-size: 30px;
+  padding: 1.5px;
+}
+
+.fa-instagram {
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right top,rgba(255, 215, 35, 0.795),rgb(255, 0, 76));
+}
+.fa-twitter {
+
+}
+.fa-linkedin {
+
+}
+.fa-whatsapp {
+
+}
+.fa-github {
+
+}
+

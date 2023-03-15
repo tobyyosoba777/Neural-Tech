@@ -792,10 +792,12 @@ width: 100px;
 ********* Footer ******
 ************************/
 #footer {
+  display: flex;
+  margin-top: 230px;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #0B0B0B;
-  background: #FFFFFF;
+  color: #ffffff;
+  background: #181818;
 }
 #footer a {
   color: #000;
@@ -815,6 +817,11 @@ padding: 3px 0;
 width: 31px;
 text-align: center;
 }
+
+.brandz {
+  font-size: 1.6rem;
+}
+
 /*hero-action-section*/
 .hero-action-section {
     background-image: url("../images/img2.jpg");
@@ -871,9 +878,9 @@ text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
-  #footer .social-icons {
+  /* #footer .social-icons {
     float: right;
-  }
+  } */
 
   .navbar.navbar-default .navbar-brand img {
     height: 69px;
@@ -988,15 +995,19 @@ padding: 7px 0 0;
 .social-icons {
   display: flex;
   flex-direction: row;
-  /* padding: 20px; */
+  padding: 20px;
   margin-left: 20px;
   justify-content: space-evenly;
+}
+
+.social-icons a {
+  display: block;
 }
 
 .social-icons i {
   margin: 20px;
   font-size: 30px;
-  padding: 4.5px;
+  padding: 8.5px;
 }
 
 .fa-instagram {
